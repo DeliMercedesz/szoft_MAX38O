@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szoft_MAX38O", "szoft_MAX38O\szoft_MAX38O.csproj", "{39DA13D6-AD3B-4301-B156-BB5E8BBA555A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "szoft_MAX38O", "szoft_MAX38O\szoft_MAX38O.csproj", "{39DA13D6-AD3B-4301-B156-BB5E8BBA555A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szorzotabla", "szorzotabla\szorzotabla.csproj", "{920602AE-B202-4174-8ED9-7678289B9AC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{AD9596C1-06FC-45BF-879E-280DA500D6BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "adat_racs", "adat_racs\adat_racs.csproj", "{01421049-AA62-4F00-970E-3692A29674E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{39DA13D6-AD3B-4301-B156-BB5E8BBA555A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39DA13D6-AD3B-4301-B156-BB5E8BBA555A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39DA13D6-AD3B-4301-B156-BB5E8BBA555A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{920602AE-B202-4174-8ED9-7678289B9AC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{920602AE-B202-4174-8ED9-7678289B9AC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{920602AE-B202-4174-8ED9-7678289B9AC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{920602AE-B202-4174-8ED9-7678289B9AC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD9596C1-06FC-45BF-879E-280DA500D6BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD9596C1-06FC-45BF-879E-280DA500D6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD9596C1-06FC-45BF-879E-280DA500D6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD9596C1-06FC-45BF-879E-280DA500D6BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01421049-AA62-4F00-970E-3692A29674E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01421049-AA62-4F00-970E-3692A29674E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01421049-AA62-4F00-970E-3692A29674E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01421049-AA62-4F00-970E-3692A29674E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
