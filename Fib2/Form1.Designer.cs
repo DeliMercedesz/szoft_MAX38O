@@ -1,4 +1,4 @@
-﻿namespace Fibonacci
+﻿namespace Fib2
 {
     partial class Form1
     {
@@ -35,10 +35,10 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(26, 12);
+            dataGridView1.Location = new Point(145, 136);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(221, 134);
+            dataGridView1.Size = new Size(298, 182);
             dataGridView1.TabIndex = 0;
             // 
             // Form1

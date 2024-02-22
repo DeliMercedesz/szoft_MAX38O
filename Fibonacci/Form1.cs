@@ -8,7 +8,7 @@ namespace Fibonacci
             for (int i = 0; i < 10; i++)
             {
                 Button B = new Button();
-                B.Top = i *30;
+                B.Top = i * 30;
                 B.Text = Fibonacci(i).ToString();
                 Controls.Add(B);
             }
