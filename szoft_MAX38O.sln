@@ -5,11 +5,13 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "szoft_MAX38O", "szoft_MAX38O\szoft_MAX38O.csproj", "{39DA13D6-AD3B-4301-B156-BB5E8BBA555A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szorzotabla", "szorzotabla\szorzotabla.csproj", "{920602AE-B202-4174-8ED9-7678289B9AC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "szorzotabla", "szorzotabla\szorzotabla.csproj", "{920602AE-B202-4174-8ED9-7678289B9AC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "adat_racs", "adat_racs\adat_racs.csproj", "{01421049-AA62-4F00-970E-3692A29674E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "adat_racs", "adat_racs\adat_racs.csproj", "{01421049-AA62-4F00-970E-3692A29674E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fib2", "Fib2\Fib2.csproj", "{4DCD562D-1AC8-4C76-8619-E347A488D87D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fib2", "Fib2\Fib2.csproj", "{4DCD562D-1AC8-4C76-8619-E347A488D87D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gyakorlo_1", "Gyakorlo_1\Gyakorlo_1.csproj", "{11236BA6-4E16-4FBD-A43D-C9E6E7E70ACF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{4DCD562D-1AC8-4C76-8619-E347A488D87D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DCD562D-1AC8-4C76-8619-E347A488D87D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DCD562D-1AC8-4C76-8619-E347A488D87D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11236BA6-4E16-4FBD-A43D-C9E6E7E70ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11236BA6-4E16-4FBD-A43D-C9E6E7E70ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11236BA6-4E16-4FBD-A43D-C9E6E7E70ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11236BA6-4E16-4FBD-A43D-C9E6E7E70ACF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
