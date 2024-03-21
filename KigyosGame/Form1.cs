@@ -7,7 +7,10 @@ namespace KigyosGame
         int irany_x = 1;
         int irany_y = 0;
         int lepesszam;
-        int hossz;
+        int hossz = 4 ;
+        int szamolo;
+
+        List<KigyoElem> kigyo = new List<KigyoElem>();
         public Form1()
         {
             InitializeComponent();
@@ -17,8 +20,7 @@ namespace KigyosGame
         private void Form1_Load(object sender, EventArgs e)
         {
             KeyDown += Form1_KeyDown;
-
-           
+         
         }
 
         private void Form1_KeyDown(object? sender, KeyEventArgs e)
@@ -49,24 +51,62 @@ namespace KigyosGame
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+            
             lepesszam++;
+            
+            Random rnd = new Random();
+            int randomszam = 200;
+            int randomszam2 = 200;
 
             fej_x += irany_x * KigyoElem.Meret;
             fej_y += irany_y * KigyoElem.Meret;
+            
            
-            foreach (KigyoElem item in Controls)  //már tudom hova akarom letenni, de még nem tettem le
+            foreach (object item in Controls)  //már tudom hova akarom letenni, de még nem tettem le
             {
-                if (item.Top == fej_y && item.Left == fej_x)
+                if(item is KigyoElem)
                 {
-                    timer1.Enabled = false;
-                    return;
+                    KigyoElem k = (KigyoElem)item;
+                    
+                    if (k.Top == fej_y && k.Left == fej_x)
+                    {
+                        timer1.Enabled = false;
+                        return;
+                    }
                 }
+                
             }
+
 
             KigyoElem ke = new KigyoElem();
             ke.Top = fej_y;
             ke.Left = fej_x;
+            kigyo.Add(ke);
             Controls.Add(ke);
+            if (kigyo.Count > hossz)  //a controls-on lévõ elemeket számolja és ha elér a kívánt hosszhoz, levágja az utolsót mindig
+            {
+                KigyoElem levagando = kigyo[0];
+                kigyo.RemoveAt(0);
+                Controls.Remove(levagando);
+            }
+
+            if (lepesszam % 2 == 0) ke.BackColor = Color.Yellow;
+            
+            if (lepesszam % 3 == 0 && szamolo < 2)
+            {
+                Alma alma = new Alma();
+                alma.Top = randomszam;
+                alma.Left = randomszam2;
+                Controls.Add (alma);
+                szamolo++;
+
+                if (ke.Top == alma.Top && ke.Left == alma.Left)
+                {
+                    hossz++;
+                }
+
+            }
+           
         }
     }
 }
