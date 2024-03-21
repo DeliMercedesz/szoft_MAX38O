@@ -18,14 +18,7 @@ namespace KigyosGame
         {
             KeyDown += Form1_KeyDown;
 
-            foreach (KigyoElem item in Controls)
-            {
-                if(item.Top == fej_y && item.Left == fej_x)
-                {
-                    timer1.Enabled = false;
-                    return;
-                }
-            }
+           
         }
 
         private void Form1_KeyDown(object? sender, KeyEventArgs e)
@@ -60,6 +53,15 @@ namespace KigyosGame
 
             fej_x += irany_x * KigyoElem.Meret;
             fej_y += irany_y * KigyoElem.Meret;
+           
+            foreach (KigyoElem item in Controls)  //már tudom hova akarom letenni, de még nem tettem le
+            {
+                if (item.Top == fej_y && item.Left == fej_x)
+                {
+                    timer1.Enabled = false;
+                    return;
+                }
+            }
 
             KigyoElem ke = new KigyoElem();
             ke.Top = fej_y;
