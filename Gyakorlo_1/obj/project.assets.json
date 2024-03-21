@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\max38o\\Source\\Repos\\szoft_MAX38O\\Gyakorlo_1\\Gyakorlo_1.csproj",
+      "projectUniqueName": "C:\\Users\\max38o\\Desktop\\repo\\Gyakorlo_1\\Gyakorlo_1.csproj",
       "projectName": "Gyakorlo_1",
-      "projectPath": "C:\\Users\\max38o\\Source\\Repos\\szoft_MAX38O\\Gyakorlo_1\\Gyakorlo_1.csproj",
+      "projectPath": "C:\\Users\\max38o\\Desktop\\repo\\Gyakorlo_1\\Gyakorlo_1.csproj",
       "packagesPath": "C:\\Users\\max38o\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\max38o\\Source\\Repos\\szoft_MAX38O\\Gyakorlo_1\\obj\\",
+      "outputPath": "C:\\Users\\max38o\\Desktop\\repo\\Gyakorlo_1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\max38o\\AppData\\Roaming\\NuGet\\NuGet.Config",
