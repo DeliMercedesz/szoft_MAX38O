@@ -7,6 +7,7 @@ namespace KigyosGame
         int irany_x = 1;
         int irany_y = 0;
         int lepesszam;
+        int hossz;
         public Form1()
         {
             InitializeComponent();
