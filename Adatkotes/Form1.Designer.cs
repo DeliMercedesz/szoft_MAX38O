@@ -37,6 +37,7 @@
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
+            button4 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)countryDataBindingSource).BeginInit();
             SuspendLayout();
@@ -93,6 +94,7 @@
             button2.TabIndex = 2;
             button2.Text = "Törlés";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -104,11 +106,22 @@
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
+            // button4
+            // 
+            button4.Location = new Point(421, 388);
+            button4.Name = "button4";
+            button4.Size = new Size(100, 34);
+            button4.TabIndex = 4;
+            button4.Text = "Mentés";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -131,5 +144,6 @@
         private DataGridViewTextBoxColumn populationDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn areaInSquareKmDataGridViewTextBoxColumn;
         private BindingSource countryDataBindingSource;
+        private Button button4;
     }
 }

@@ -10,7 +10,7 @@ namespace Adatkotes
         public Form1()
         {
             InitializeComponent();
-            
+
             countryDataBindingSource.DataSource = countryList;
             //dataGridView1.DataSource = countryList;
         }
@@ -38,6 +38,21 @@ namespace Adatkotes
             FormCountryData cD = new FormCountryData();
             cD.countryData = countryDataBindingSource.Current as CountryData;
             cD.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+            using (var writer = new StreamWriter("countries.csv"))
+            using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
+            {
+                csv.WriteRecords(countryList);
+            };
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            countryDataBindingSource.RemoveCurrent();
         }
     }
 }
