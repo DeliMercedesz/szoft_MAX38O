@@ -14,4 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Gyakorlo_1
-build_property.ProjectDir = C:\Users\max38o\Desktop\repo\Gyakorlo_1\
+build_property.ProjectDir = C:\Users\Merci\source\repos\szoft_MAX38O\Gyakorlo_1\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

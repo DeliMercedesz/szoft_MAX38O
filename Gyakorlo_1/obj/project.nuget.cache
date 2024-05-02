@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Qb7/ur3HWaKHPZk52fdK+PbAixBzJVVh7FD7xkyOsjkeLeUey6mEKsDPwJ5G6HLw6n45WWWBPa0P+z2wcuswgg==",
+  "dgSpecHash": "CdzDk3aujOf68dO5GZKfcJV3BMszDULVVMEEuweq6rtS1oAMq44r+9SOaJMwu0BZY4HG5T8ZprjPZGFK8hqZPA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\max38o\\Desktop\\repo\\Gyakorlo_1\\Gyakorlo_1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Merci\\Source\\Repos\\szoft_MAX38O\\Gyakorlo_1\\Gyakorlo_1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Merci\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.16\\microsoft.windowsdesktop.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\Merci\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.16\\microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\Merci\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.16\\microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\Merci\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.16\\microsoft.netcore.app.host.win-x64.7.0.16.nupkg.sha512"
+  ],
   "logs": []
 }
